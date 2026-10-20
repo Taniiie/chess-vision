@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+*.env
+.env.local
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large binaries (Stockfish engine binary exceeds GitHub 100MB limit; download separately)
+*.exe
+stockfish/stockfish/*.exe
+stockfish/**/*.exe
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
